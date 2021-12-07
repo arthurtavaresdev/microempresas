@@ -4,32 +4,28 @@ GET http://localhost:8080/micro-empresa
 ### GET with invalid ID
 GET http://localhost:8080/micro-empresa/1
 
-### POST new Book
+### POST new microempresa
 POST http://localhost:8080/micro-empresa
 Content-Type: application/json
 
 {
-  "title":"Eloquent JavaScript, Third Edition",
-  "author":"Marijn Haverbeke",
-  "published_at":"2018-12-04",
-  "publisher":"No Starch Press",
-  "status": "available"
+  "nome": "Newton paiva MEI",
+  "cnpj": "03.364.378/0001-62",
+  "email": "email@email.com"
 }
 
 ### GET with ID
-GET http://localhost:8080/micro-empresa/615ba18df9206d5abf261004
+GET http://localhost:8080/micro-empresa/61aea915ff971357e65ae2ff
 
-### PUT update Book
-PUT http://localhost:8080/micro-empresa/615ba18df9206d5abf261004
+### PUT update Microempresa
+PUT http://localhost:8080/micro-empresa/61aea915ff971357e65ae2ff
 Content-Type: application/json
 
 {
-  "title":"Practical Modern JavaScript",
-  "author":"Nicolás Bevacqua",
-  "published_at":"2017-07-16T00:00:00.000Z",
-  "publisher":"O'Reilly Media",
-  "status": "blocked"
+  "nome": "Newton paiva - ATUALIZADO -  MEI",
+  "cnpj": "03.362.378/0001-62",
+  "email": "emailatualizado@email.com"
 }
 
 ### DELETE
-DELETE http://localhost:8080/users/615ba18df9206d5abf261004
+DELETE http://localhost:8080/users/61aea915ff971357e65ae2ff

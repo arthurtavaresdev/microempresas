@@ -27,6 +27,6 @@ public class MicroEmpresa
         this.nome = microEmpresaDto.getNome();
         this.cnpj = microEmpresaDto.getCnpj();
         this.email = microEmpresaDto.getEmail();
-        this.dataCadastro = microEmpresaDto.getDataCadastro();
+        this.dataCadastro = LocalDate.now();
     }
 }
