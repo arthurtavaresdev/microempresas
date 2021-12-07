@@ -1,11 +1,11 @@
 ### GET
-GET http://localhost:8080/micro-empresa
+GET http://localhost:8080/micro-company
 
 ### GET with invalid ID
-GET http://localhost:8080/micro-empresa/1
+GET http://localhost:8080/micro-company/1
 
-### POST new microempresa
-POST http://localhost:8080/micro-empresa
+### POST new microcompany
+POST http://localhost:8080/micro-company
 Content-Type: application/json
 
 {
@@ -15,10 +15,10 @@ Content-Type: application/json
 }
 
 ### GET with ID
-GET http://localhost:8080/micro-empresa/61aea915ff971357e65ae2ff
+GET http://localhost:8080/micro-company/61aea915ff971357e65ae2ff
 
-### PUT update Microempresa
-PUT http://localhost:8080/micro-empresa/61aea915ff971357e65ae2ff
+### PUT update Microcompany
+PUT http://localhost:8080/micro-company/61aea915ff971357e65ae2ff
 Content-Type: application/json
 
 {

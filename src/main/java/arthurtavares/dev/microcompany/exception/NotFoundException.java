@@ -1,4 +1,4 @@
-package arthurtavares.dev.microempresa.exception;
+package arthurtavares.dev.microcompany.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
